@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbdugumleryeniModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'dbdugumleryeni.dbo.adresleryeni' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="adresleryeni">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="lokasyonadi" Type="nchar" MaxLength="50" />
+    <Property Name="lokasyonid" Type="nchar" MaxLength="50" />
+    <Property Name="nereyeait" Type="nchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'dbdugumleryeni.dbo.locationdevice' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="locationdevice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cihazid" Type="nchar" MaxLength="50" />
+    <Property Name="cihazadi" Type="nchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="dbdugumleryeniModelStoreContainer">
+    <EntitySet Name="adresleryeni" EntityType="Self.adresleryeni" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[adresleryeni].[id] AS [id], 
+[adresleryeni].[lokasyonadi] AS [lokasyonadi], 
+[adresleryeni].[lokasyonid] AS [lokasyonid], 
+[adresleryeni].[nereyeait] AS [nereyeait]
+FROM [dbo].[adresleryeni] AS [adresleryeni]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="locationdevice" EntityType="Self.locationdevice" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[locationdevice].[id] AS [id], 
+[locationdevice].[cihazid] AS [cihazid], 
+[locationdevice].[cihazadi] AS [cihazadi]
+FROM [dbo].[locationdevice] AS [locationdevice]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbdugumleryeniModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="adresleryeni">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="lokasyonadi" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="lokasyonid" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="nereyeait" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="locationdevice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cihazid" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="cihazadi" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="dbdugumleryeniEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="adresleryeni" EntityType="Self.adresleryeni" />
+    <EntitySet Name="locationdevice" EntityType="Self.locationdevice" />
+  </EntityContainer>
+</Schema>

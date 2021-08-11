@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbdugumleryeniModelStoreContainer" CdmEntityContainer="dbdugumleryeniEntities">
+    <EntitySetMapping Name="adresleryeni">
+      <EntityTypeMapping TypeName="dbdugumleryeniModel.adresleryeni">
+        <MappingFragment StoreEntitySet="adresleryeni">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="lokasyonadi" ColumnName="lokasyonadi" />
+          <ScalarProperty Name="lokasyonid" ColumnName="lokasyonid" />
+          <ScalarProperty Name="nereyeait" ColumnName="nereyeait" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="locationdevice">
+      <EntityTypeMapping TypeName="dbdugumleryeniModel.locationdevice">
+        <MappingFragment StoreEntitySet="locationdevice">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="cihazid" ColumnName="cihazid" />
+          <ScalarProperty Name="cihazadi" ColumnName="cihazadi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

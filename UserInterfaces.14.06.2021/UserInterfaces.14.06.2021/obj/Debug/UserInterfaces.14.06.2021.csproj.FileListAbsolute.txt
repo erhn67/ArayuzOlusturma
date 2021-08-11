@@ -1,0 +1,13 @@
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\bin\Debug\UserInterfaces.14.06.2021.exe.config
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\bin\Debug\UserInterfaces.14.06.2021.exe
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\bin\Debug\UserInterfaces.14.06.2021.pdb
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\obj\Debug\UserInterfaces._14._06._2021.Form1.resources
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\obj\Debug\UserInterfaces._14._06._2021.Properties.Resources.resources
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\obj\Debug\UserInterfaces.14.06.2021.csproj.GenerateResource.cache
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\obj\Debug\UserInterfaces.14.06.2021.csproj.CoreCompileInputs.cache
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\obj\Debug\UserInterfaces.14.06.2021.exe
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\obj\Debug\UserInterfaces.14.06.2021.pdb
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\bin\Debug\EntityFramework.dll
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\bin\Debug\EntityFramework.xml
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\obj\Debug\UserInterfaces.14.06.2021.csproj.CopyComplete
+C:\Apps\c#_form_application\UserInterfaces.14.06.2021\UserInterfaces.14.06.2021\obj\Debug\UserInterfaces.14.06.2021.csproj.AssemblyReference.cache
